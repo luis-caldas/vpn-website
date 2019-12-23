@@ -1,0 +1,41 @@
+html {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 13px;
+    color: #b0b0b0;
+    background-color: #303030;
+}
+
+body a {
+    color: #808080;
+    text-decoration: none;
+    outline: 0;
+}
+
+body a:hover {
+    color: #f0f0f0;
+}
+
+div {
+    margin: 20px;
+}
+
+div#container {
+    display: table;
+    background-color: #00000030;
+    margin: 30px;
+    padding: 10px;
+}
+
+div .title {
+    font-size: 20px;
+}

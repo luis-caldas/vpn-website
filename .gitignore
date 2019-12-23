@@ -1,0 +1,4 @@
+.*
+!.gitignore
+!.gitmodules
+root-cert.crt

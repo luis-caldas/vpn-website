@@ -1,0 +1,61 @@
+html {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 13px;
+    color: #b0b0b0;
+    background-color: #303030;
+}
+
+body a {
+    color: #808080;
+    text-decoration: none;
+    font-weight: normal;
+    outline: 0;
+}
+
+body a:hover {
+    color: #f0f0f0;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h2, table, div.foot {
+    font-weight: normal;
+    background-color: #00000030;
+    margin: 30px;
+}
+
+h2, div.foot {
+    display: table;
+    padding: 30px;
+}
+
+table {
+    padding: 30px 10px 30px 10px;
+}
+
+table thead th {
+    padding-bottom: 20px;
+}
+
+th, td {
+    padding-right: 20px;
+    padding-left: 20px;
+    line-height: 23px;
+    text-align: left;
+}
+
+td.s, th.s {
+    text-align: right;
+}
