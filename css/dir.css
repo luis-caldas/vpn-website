@@ -31,18 +31,21 @@ h2 {
 }
 
 h2, table, div.foot {
+    white-space: nowrap;
     font-weight: normal;
     background-color: #00000030;
-    margin: 30px;
 }
 
 h2, div.foot {
     display: table;
+    margin: 30px;
     padding: 30px;
 }
 
 table {
-    padding: 30px 10px 30px 10px;
+    display: inline-table;
+    padding: 25px 10px 25px 10px;
+    margin: 0px 30px 0px 30px;
 }
 
 table thead th {
